@@ -4,8 +4,8 @@ This project presents a solution to the Turtle Segmentation Challenge, focusing 
 
 ## Overview
 The goal is to accurately segment turtles in a test image using a deep learning model and then apply geometric algorithms to the segmentation mask. This involves:
-> Developing a model for semantic segmentation to distinguish between the turtle (foreground) and everything else (background).
-> Implementing algorithms to find a convex hull enclosing the turtle pixels and calculating the area of this polygon.
+> 1. Developing a model for semantic segmentation to distinguish between the turtle (foreground) and everything else (background).
+> 2. Implementing algorithms to find a convex hull enclosing the turtle pixels and calculating the area of this polygon.
 
 ## Dataset
 ### Training Data: 
